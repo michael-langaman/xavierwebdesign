@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* GENERAL
+	fonts found on http://google.com/fonts 
+*/ 
+
+body {
+	font-family:'Russo One', cursive;
+	color:#B99D6A;
+}
+
+
+
+/*HEADER*/
+
+header {
+	float: left;
+	margin:0 0 50 0;
+	padding: 5px 0 5px 0;
+	width:100%;
+	background: #9F1425;
+	text-align:center;
+	background: -webkit-linear-gradient(#003375, #9F1425); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#003375, #9F1425); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(#003375, #9F1425); /* For Firefox 3.6 to 15 */
+ 	background: linear-gradient(#003375, #9F1425); /* Standard syntax */
+}
+
+.headerfont {
+	font-size:2.00em;
+}
+
+h1 {
+	font-family: 'Anton';
+	margin: 15px 0;
+	font-size: 2.00em;
+	font-weight:normal;
+	line-height:0.8em;
+	color: #FFF;
+}
+
+h2 {
+	text-align:center;
+	font-family: 'Anton';
+	font-size: 0.75em;
+	font-weight:normal;
+	line-height:0.8em;
+	color: #FFF;
+}
+
+/* NAV */ 
+
+nav {
+	padding: 10px;
+	margin: 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+}
+
+nav li {
+	display:inline-block;
+	text-decoration:none;
+}
+
+nav a {
+	font-weight: 800;
+	color: #B99D6A;
+	padding: 15px 10px;
+	text-decoration:none;
+	font-size:1.50em;
+}
+
+a:hover {
+	color:#FF0;
+}
+
+
+
+#button {
+	background-color:#003375;
+	border: 5px;
+	border-style:solid;
+	border-color:#B99D6A;
+	border-radius: 5px;
+	display:block;
+}
+
+
+/* SECTION */ 
+
+img {
+	max-width: 900px;
+	max-height: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
+
+#wrapper {
+	background-color:#9F1425;
+	padding:30px;
+}
+
+.steps {
+	background-color:#003375;
+	max-height:1100px;
+	max-width:1100px;
+	font-color:#B99D6A;
+	text-align:center;
+	border: 5px;
+	border-color:#B99D6A;
+	border-style:solid;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
+
+p {
+	font-size: 1.50em;
+	color:#FFF;
+}
+
+h3 {
+	font-size: 1.75em;
+	color:#FFF;
+}
+
+.button {
+	background-color:#003375;
+	border: 5px;
+	border-style:solid;
+	border-color:#B99D6A;
+	border-radius: 5px;
+	display:inline-block;
+	max-width: 75px;
+	max-height: 50px;
+	
+}
+	
+	
+/* FOOTER */
+
+footer {
+	background-color:#003375;
+	border: 5px;
+	border-style:solid;
+	border-color:#B99D6A;
+	border-radius: 5px;
+	display:block;
+	max-height: 50px;
+}
+
+.socialmedia { 
+	display:inline-block;
+	margin: 10px 10px 0 10px;
+	height: 30px;
+	width: 30px;
+}
+
+.footerfont {
+	font-family:'Cabin';
+	font-size: 0.5em;
+	display: inline-block;
+	margin: 10px;
+	text-align:left;
+	color:#FFF;
+	text-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+	
